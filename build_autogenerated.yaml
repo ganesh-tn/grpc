@@ -25095,14 +25095,8 @@ targets:
   src:
   - test/core/address_utils/uds_socket_test.cc
   deps:
-  - absl/log:log
-  - absl/status
-  - gpr
-  - grpc
-  - grpc_test_util
   - gtest
-  - sockaddr_utils
-  uses_polling: false
+  - grpc_test_util
   platforms:
   - linux
   - posix
