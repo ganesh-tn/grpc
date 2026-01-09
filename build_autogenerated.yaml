@@ -25095,18 +25095,12 @@ targets:
   src:
   - test/core/address_utils/uds_socket_test.cc
   deps:
-  - absl/log:log
-  - absl/status
-  - gpr
-  - grpc
-  - grpc_test_util
   - gtest
-  - sockaddr_utils
+  - grpc_test_util
   platforms:
   - linux
   - posix
   - mac
-  uses_polling: false
 - name: unique_ptr_with_bitset_test
   gtest: true
   build: test
